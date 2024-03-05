@@ -1,0 +1,11 @@
+.app {
+  width: 100%;
+  max-width: 1024px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /*background-color: rgba(182, 252, 213, 0.26);*/
+}

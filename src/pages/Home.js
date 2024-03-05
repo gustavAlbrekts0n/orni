@@ -1,8 +1,9 @@
 import Header from "components/Header";
+import "./Home.css";
 
 const Home = () => {
     return (
-        <div>
+        <div className="root">
             <Header />
             <h1>Örni</h1>
             <p>Bra musik!!</p>
