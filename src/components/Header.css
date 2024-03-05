@@ -22,7 +22,7 @@
 
 .logo {
     height: 80px;
-    margin: 5px;
+    margin: 8px;
 }
 
 .header-buttons {
@@ -30,13 +30,18 @@
     min-width: calc(var(--header-button-width) * 2.5);
     display: flex;
     justify-content: space-around;
+    margin-right: 7px;
     /*background-color: rgba(245, 84, 111, 0.247);*/
 }
 
 .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-weight: 600;
     min-width: var(--header-button-width);
+    max-width: var(--header-button-width);
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -61,4 +66,24 @@
 .booking:hover {
     color: rgb(0, 0, 0);
     background-color: var(--color-booking);
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --header-button-width: 75px;
+    }
+
+    .logo {
+        height: 60px;
+        margin: 15px;
+    }
+
+    .header-buttons {
+        width: 50%;
+    }
+
+    .button {
+        height: 35px;
+        font-size: small;
+    }
 }
