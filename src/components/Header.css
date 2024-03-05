@@ -1,3 +1,9 @@
+:root {
+    --header-button-width: 100px;
+    --color-spotify: rgb(92, 255, 119);
+    --color-booking: rgb(255, 99, 52);
+}
+
 .header-container {
     width: 100%;
     background-color: rgb(0, 0, 0);
@@ -9,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
     background-color: rgb(0, 0, 0);
 }
@@ -18,27 +25,39 @@
 }
 
 .header-buttons {
-    width: 40%;
+    width: 25%;
+    min-width: calc(var(--header-button-width) * 2.5);
     display: flex;
     justify-content: space-around;
-    background-color: rgba(245, 84, 111, 0.247);
+    /*background-color: rgba(245, 84, 111, 0.247);*/
 }
 
 .button {
     text-align: center;
-    min-width: 100px;
-    border-radius: 15px;
+    font-weight: 600;
+    min-width: var(--header-button-width);
+    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     background-color: rgba(56, 90, 6, 0);
 }
 
 .spotify {
-    border: 2px solid rgb(92, 255, 119);
-    color: rgb(92, 255, 119);
+    border: 2px solid var(--color-spotify);
+    color: var(--color-spotify);
+}
+
+.spotify:hover {
+    color: rgb(0, 0, 0);
+    background-color: var(--color-spotify);
 }
 
 .booking {
-    border: 2px solid rgb(255, 99, 52);
-    color: rgb(255, 99, 52);
+    border: 2px solid var(--color-booking);
+    color: var(--color-booking);
+}
+
+.booking:hover {
+    color: rgb(0, 0, 0);
+    background-color: var(--color-booking);
 }
