@@ -19,7 +19,7 @@ const Header = () => {
                 <img className="logo" src={require("img/logo.png")} alt="Örni"/>
                 <div className="header-buttons">
                     <Button name="spotify" text="Spotify" url="https://open.spotify.com/artist/5g4goXzUuMiUvgvgxBAMtA?si=QGyl1O5dSMajGi_jpeid2Q"/>
-                    <Button name="booking" text="Boka" url="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.mcv.se%2F&h=AT12d66r2xdMqjJdPDw_e081wmyHI13X9CKOV40UHpi8yUhXrBeek5HciPoa-4H2YwhASiMFtKrhNjoHfNkR4s7_QojyU7aTa2fBZpkf47FfHjMMGCRJz95ZZoM"/>
+                    <Button name="booking" text="Boka" url="https://www.mcv.se/artister/orni/"/>
                 </div>
             </div>
         </div>

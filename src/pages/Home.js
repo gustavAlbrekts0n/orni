@@ -7,6 +7,7 @@ const Home = () => {
             <Header />
             <h1>Örni</h1>
             <p>Bra musik!!</p>
+            <img className="img-trio" src={require("img/background.jpg")} alt="Bild på trion"/>
         </div>
     );
 }
