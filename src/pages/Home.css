@@ -8,11 +8,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .img-trio {
     background-size: none;
-    width: 95%;
+    width: 100%;
     box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
 }
 
