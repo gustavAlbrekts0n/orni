@@ -1,6 +1,8 @@
 :root {
     --header-button-width: 100px;
-    --color-spotify: rgb(92, 255, 119);
+    --color-spotify: rgb(30, 215, 96);
+    --color-facebook: rgb(24, 119, 242);
+    --color-youtube: rgb(255, 0, 0);
     --color-booking: rgb(255, 99, 52);
 }
 
