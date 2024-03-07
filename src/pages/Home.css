@@ -22,6 +22,7 @@
 .intro {
     width: 85%;
     margin-top: -90px;
+    padding-bottom: 20px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: rgba(47, 134, 168, 0.863);
@@ -53,5 +54,13 @@
 
     .intro {
         margin-top: -50px;
+    }
+
+    .intro h1 {
+        font-size: 42px;
+    }
+
+    .intro p {
+        font-size: 18px;
     }
 }

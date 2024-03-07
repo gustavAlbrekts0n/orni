@@ -21,6 +21,7 @@ const Home = () => {
                         Men Örni är framför allt väldigt, väldigt egna.
                         </p>
                     </div>
+                    
                 </div>
                 <SpotifyEmbeds />
             </div>
