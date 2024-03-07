@@ -1,4 +1,5 @@
 import Header from "components/Header";
+import Footer from "components/Footer";
 import SpotifyEmbeds from "components/SpotifyEmbeds";
 import "./Home.css";
 
@@ -25,6 +26,7 @@ const Home = () => {
                 </div>
                 <SpotifyEmbeds />
             </div>
+            <Footer />
         </div>
     );
 }
