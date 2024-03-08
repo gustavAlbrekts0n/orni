@@ -1,3 +1,11 @@
+:root {
+    --header-button-width: 100px;
+    --color-spotify: rgb(30, 215, 96);
+    --color-facebook: rgb(24, 119, 242);
+    --color-youtube: rgb(255, 0, 0);
+    --color-booking: rgb(255, 99, 52);
+}
+
 .app {
   width: 100%;
   max-width: 1024px;

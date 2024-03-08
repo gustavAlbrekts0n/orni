@@ -12,11 +12,11 @@ const Home = () => {
                 <div className="intro">
                     <div className="intro-body">
                         <h1>Örni</h1>
+                        <h3>
+                        Örni är världens största trio, ömsom brötigt slamrig, ömsom mjukt finstämd.
+                        </h3>
                         <p>
-                        Rock som spritter, skevar och drar med egensinniga svenska texter. Mjukt möter hårt – som regn mot mark.
-                        </p>
-                        <p>
-                        <strong>Bob Hund</strong>, <strong>November</strong> och <strong>Queens of the Stone Age</strong> är alla referenser som nämnts i samma andetag som Örni. Och, visst, allt stämmer.
+                        <em>Bob Hund</em>, <em>November</em> och <em>Queens of the Stone Age</em> är alla referenser som nämnts i samma andetag som Örni. Och, visst, allt stämmer.
                         </p>
                         <p>
                         Men Örni är framför allt väldigt, väldigt egna.

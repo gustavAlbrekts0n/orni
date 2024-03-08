@@ -1,6 +1,6 @@
 .root {
     /*background-image: url("img/background-logo-rotated.png");*/
-    background-color: rgb(33, 13, 88);
+    background: linear-gradient(150deg, rgb(33, 13, 88), rgb(10, 49, 65));
 }
 
 .body {
@@ -14,7 +14,7 @@
 
 .img-trio {
     background-size: none;
-    width: 100%;
+    width: 90%;
     padding-top: 96px; /* Logo height + (2 * logo margin) */
     box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
 }
@@ -23,8 +23,8 @@
     width: 85%;
     margin-top: -90px;
     padding-bottom: 20px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     background-color: rgba(47, 134, 168, 0.863);
 }
 
