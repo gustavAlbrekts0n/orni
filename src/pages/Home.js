@@ -24,6 +24,11 @@ const Home = () => {
                     </div>
                     
                 </div>
+                <div className="release-info">
+                    <div className="release-info-text">
+                        <p>Våren 2024 tillbringar Örni i studion, med sikte på <strong>albumsläpp</strong>, det andra i ordningen, <strong>18/4</strong>.</p>
+                    </div>
+                </div>
                 <SpotifyEmbeds />
             </div>
             <Footer />
