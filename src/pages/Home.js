@@ -29,6 +29,14 @@ const Home = () => {
                     </div>
                 </div>
                 <SpotifyEmbeds />
+                <div className="members">
+                    <img className="img-members" src={require("img/trion.jpg")} alt="Jonas Slättung, Andreas Gustafsson, Joakim Albrektson"/>
+                    <div className="members-roles">
+                        <p className="member-edge">Andreas Gustafsson <br></br> Gitarr/sång </p>
+                        <p>Jonas Slättung <br></br> Bas/sång </p>
+                        <p className="member-edge">Joakim Albrektson <br></br> Trummor/sång </p>
+                    </div>
+                </div>
                 <div className="about">
                     <div className="about-text">
                         <p>
@@ -47,6 +55,7 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
+                
             </div>
             <Footer />
         </div>

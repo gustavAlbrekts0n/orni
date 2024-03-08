@@ -25,7 +25,7 @@
     padding-bottom: 20px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    background-color: rgba(47, 134, 168, 0.863);
+    background-color: rgba(46, 81, 128, 0.877);
 }
 
 .intro-body {
@@ -76,6 +76,52 @@
     width: 80%;
 }
 
+.members {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, rgb(12, 23, 37), rgb(42, 72, 110));
+}
+
+.img-members {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.members-roles {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background-color: rgb(21, 75, 75);*/
+}
+
+.members-roles p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.member-edge {
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 880px) {
+    .members-roles {
+        width: 100%;
+    }
+    
+    .members-roles p {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .img-trio {
         width: 100%;
@@ -106,5 +152,17 @@
 
     .about {
         font-size: 18px;
+    }
+
+    .img-members {
+        width: 50%;
+    }
+
+    .members-roles p {
+        font-size: 12px;
+    }
+
+    .member-edge {
+        margin-top: -8px;
     }
 }
