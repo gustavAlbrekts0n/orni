@@ -77,3 +77,17 @@
     color: rgb(0, 0, 0);
     background-color: var(--color-youtube);
 }
+
+@media only screen and (max-width: 600px) {
+    .social-links {
+        width: 90%;
+        padding-top: 12px;
+        /*background-color: orange;*/
+    }
+
+    .social {
+        height: 35px;
+        margin: auto;
+        font-size: small;
+    }
+}
