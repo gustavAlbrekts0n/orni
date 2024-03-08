@@ -1,5 +1,8 @@
 :root {
     --header-button-width: 100px;
+    --color-primary: rgb(33, 13, 88);
+    --color-secondary: rgb(10, 49, 65);
+    --color-section: rgba(8, 7, 48, 0.308);
     --color-spotify: rgb(30, 215, 96);
     --color-facebook: rgb(24, 119, 242);
     --color-youtube: rgb(255, 0, 0);

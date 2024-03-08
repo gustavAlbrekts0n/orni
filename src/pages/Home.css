@@ -1,6 +1,6 @@
 .root {
     /*background-image: url("img/background-logo-rotated.png");*/
-    background: linear-gradient(150deg, rgb(33, 13, 88), rgb(10, 49, 65));
+    background: linear-gradient(150deg, var(--color-primary), var(--color-secondary));
 }
 
 .body {
@@ -53,7 +53,7 @@
     text-align: center;
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
-    background:linear-gradient(45deg, black, rgba(8, 7, 48, 0.308));
+    background:linear-gradient(45deg, black, var(--color-section));
 }
 
 .release-info-text {
@@ -69,7 +69,7 @@
     padding-bottom: 30px;
     font-size: 22px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    background:linear-gradient(-45deg, black, rgba(8, 7, 48, 0.308));
+    background:linear-gradient(-45deg, black, var(--color-section));
 }
 
 .about-text {
