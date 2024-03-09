@@ -8,8 +8,8 @@ const Home = () => {
         <div className="root">
             <Header />
             <div className="body">
-                <img className="img-trio" src={require("img/background.jpg")} alt="Bild på trion"/>
                 <div className="intro">
+                    <img className="img-trio" src={require("img/background.jpg")} alt="Bild på trion"/>
                     <div className="intro-body">
                         <h1>Örni</h1>
                         <h3>

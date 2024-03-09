@@ -5,7 +5,7 @@
 }
 
 .header {
-    max-width: 1024px;
+    max-width: 1600px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@
 }
 
 .header-buttons {
-    width: 25%;
+    width: 15%;
     min-width: calc(var(--header-button-width) * 2.5);
     display: flex;
     justify-content: space-around;
@@ -81,5 +81,25 @@
     .button {
         height: 35px;
         font-size: small;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .logo {
+        height: 50px;
+        margin: 15px;
+    }
+
+    .header-buttons {
+        width: 100%;
+        justify-content: right;
+        /*background-color: red;*/
+    }
+
+    .button {
+        height: 35px;
+        margin-left: 10px;
+        font-size: small;
+        /*background-color: blue;*/
     }
 }
